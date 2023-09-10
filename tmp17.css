@@ -1,0 +1,210 @@
+.exo90{
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 950px;
+    height: 500px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat( 4 , 1fr) ;
+    grid-template-rows: repeat( 2 , 1fr);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+ }
+ .exo90 .onet,
+ .exo90 .twot,
+ .exo90 .threet,
+ .exo90 .fourt ,
+ .exo90 .fivet{
+    padding: 10px;
+    margin: 2px;
+    position: relative;
+    overflow: hidden;
+    font-size: 12px;
+    box-shadow:0px 1px 10px rgba(0, 0, 0, 0.379) ;
+    border-radius: 10px;
+   } 
+   .profil{
+      display: flex;
+      align-items: center;
+   }
+   .exo90 .onet p:nth-last-child(2),
+   .exo90 .twot p:nth-last-child(2),
+   .exo90 .threet p:nth-last-child(2),
+   .exo90 .fourt p:nth-last-child(2),
+   .exo90 .fivet p:nth-last-child(2){
+font-size: 15px;
+margin-top: 5px;
+   }
+   .img1,
+   .img2,
+   .img3,
+   .img4,
+   .img5{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-size: cover;
+   }
+   .img1{
+      background-image: url(image-daniel.jpg);
+   }
+   .img2{
+      background-image: url(image-jeanette.jpg);
+   }
+   .img3{
+      background-image: url(image-jonathan.jpg);
+   }
+   .img4{
+      background-image: url(image-kira.jpg);
+   }
+   .img5{
+      background-image: url(image-patrick.jpg);
+   }
+   .about{
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+   }
+   .about h4{
+      margin-bottom: 0px;
+      margin-top: 20px;
+   }
+   .about p{
+      margin-top: 0px;
+   }
+   h4{
+    text-transform: uppercase;
+   }
+   .onet{
+    background-color: hsl(263, 55%, 52%);
+    grid-column: span 2;
+    color: white;
+   
+   }
+   .twot{
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+   }
+   .threet{
+    grid-row: span 2 ;
+    background-color: white;
+    color: black;
+   }
+   .fourt p:last-child {
+   line-height: 20px;
+   padding-left: 15px;
+   padding-right: 15px;
+   color: #0000008f;
+   }
+   .threet p:last-child {
+      line-height: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: #0000008c;
+   }
+   .twot p:last-child ,
+   .onet p:last-child ,
+   .fivet p:last-child {
+   color: #ffffff75;
+   }
+  
+   .fivet{
+    grid-column: span 2 ;
+    background-color: hsl(215, 23%, 16%) ;
+    color: white;
+   }
+   .sixt{
+    background-color: white;
+    grid-column: span 2 ;
+   }
+   .sevent ,
+   .eightt , 
+   .ninet ,
+   .tent ,
+   .fourt {
+    background-color: white;
+    color: black;
+   }
+  
+   @media (max-width:768px) {
+      .exo90{
+         padding: 10px;
+         margin: 0 auto;
+         margin-top: 50px;
+         width: auto;
+         gap: 20px;
+         display: grid;
+         grid-template-columns: repeat( 1 , 1fr) ;
+         grid-template-rows: repeat( 5 , 1fr);
+         font-family: 'Barlow Semi Condensed', sans-serif;
+      
+      }
+      .fivet{
+         grid-column: span 2 ;
+         background-color: hsl(215, 23%, 16%) ;
+         color: white;
+         height: 1500px;
+        
+        }
+      .threet{
+         grid-row: span 1 ;
+         margin: 0;
+         width: 100%;
+         height: 500px;
+        }
+        .sixt{
+         background-color: white;
+         grid-column: span 1 ;
+        }
+        .twot{
+         background-color: hsl(217, 19%, 35%);
+         color: white;
+         grid-column: span 2 ;
+        }
+        .fourt{
+         background-color: hsl(217, 19%, 35%);
+         color: white;
+         grid-column: span 2 ;
+      
+        }
+        .exo90 .onet,
+ .exo90 .twot,
+ .exo90 .threet,
+ .exo90 .fourt ,
+ .exo90 .fivet{
+    padding: 10px;
+    margin: 2px;
+    position: relative;
+    font-size: 20px;
+    box-shadow:0px 1px 10px rgba(0, 0, 0, 0.379) ;
+    border-radius: 10px;
+   } 
+   
+   .exo90 .onet p:nth-last-child(2),
+   .exo90 .twot p:nth-last-child(2),
+   .exo90 .threet p:nth-last-child(2),
+   .exo90 .fourt p:nth-last-child(2),
+   .exo90 .fivet p:nth-last-child(2) {
+font-size: 25px;
+margin-top: 20px;
+   }
+   .twot  {
+      height: 300px;
+      margin-bottom: 50px;
+   }
+   .onet {
+      height: 600px;
+   }
+   .fourt{
+      height: 300px;
+   }
+   .fivet{
+      height: 720px;
+   }
+   .fourt p:last-child {
+      line-height: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: #ffffff63;
+      }
+}
